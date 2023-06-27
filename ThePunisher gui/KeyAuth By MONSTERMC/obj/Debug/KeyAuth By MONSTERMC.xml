@@ -1,0 +1,62 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+KeyAuth By MONSTERMC
+</name>
+</assembly>
+<members>
+<member name="T:KeyAuth_By_MONSTERMC.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:KeyAuth_By_MONSTERMC.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:KeyAuth_By_MONSTERMC.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:KeyAuth_By_MONSTERMC.My.Resources.Resources.Capture_removebg_preview">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:KeyAuth_By_MONSTERMC.My.Resources.Resources.click_one">
+<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member>
+<member name="P:KeyAuth_By_MONSTERMC.My.Resources.Resources.s_l1600_removebg_preview">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="M:KeyAuth_By_MONSTERMC.KeyAuth.api.init">
+ <summary>
+ Initializes the connection with keyauth in order to use any of the functions
+ </summary>
+</member>
+<member name="M:KeyAuth_By_MONSTERMC.KeyAuth.api.check">
+ <summary>
+ checks if the current session is validated or not
+ </summary>
+</member>
+<member name="M:KeyAuth_By_MONSTERMC.KeyAuth.api.ban">
+ <summary>
+ Bans the current logged in user
+ </summary>
+</member>
+<member name="M:KeyAuth_By_MONSTERMC.KeyAuth.api.checkblack">
+ <summary>
+ Checks if the current ip address/hwid is blacklisted
+ </summary>
+ <returns>If found blacklisted returns true if not false</returns>
+</member>
+</members>
+</doc>
