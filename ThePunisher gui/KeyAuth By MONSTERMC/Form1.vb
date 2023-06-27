@@ -8,7 +8,7 @@ Public Class Form1
         LoadFormCode()
     End Sub
 #Region "KeyAuth"
-    Public Shared KeyAuthApp As New api(name:="VIP TOOLS", ownerid:="haWdqjdbyX", secret:="f64222bfab8b7927e63f17066c3c3a95d2215243f79df285492173276e345e70", version:="1.0")
+    Public Shared KeyAuthApp As New api(name:="App Name", ownerid:="ownerid her", secret:="your secret", version:="1.0")
     Public Sub LoadFormCode()
         KeyAuthApp.init()
 
