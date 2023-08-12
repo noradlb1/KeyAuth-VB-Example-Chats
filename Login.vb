@@ -12,6 +12,7 @@ Imports System.Text
 Imports System.Threading
 Imports System.Threading.Tasks
 Imports System.Windows.Forms
+Imports EncryptAndDecrypt
 
 Namespace KeyAuth
 	Partial Public Class Login
@@ -37,6 +38,7 @@ Namespace KeyAuth
 
 		' KeyAuthApp.register("username", "password", "key");
 		'KeyAuthApp.login("username", "password"); 
+		Dim Encrypt As New EncryptAndDecrypt.Encrypt_String_By_MONSTERMC
 
 		Public Shared KeyAuthApp As New api(name:="APP Name From Panel أسم الأبلكيشن الذي انشئته في البانيل", ownerid:="الأيدي الخاص بك في البانيل", secret:="سيكرت الخاص بك في البانيل يكون تحت اسم الأبلكيشن الذي انشائته", version:="1.0")
 

@@ -48,6 +48,9 @@
     <MyType>WindowsForms</MyType>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EncryptAndDecrypt">
+      <HintPath>.\EncryptAndDecrypt.dll</HintPath>
+    </Reference>
     <Reference Include="PresentationFramework" />
     <Reference Include="Siticone.UI, Version=1.0.0.3, Culture=neutral, PublicKeyToken=da23b5286e22db85, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>

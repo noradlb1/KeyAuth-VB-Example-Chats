@@ -10,6 +10,7 @@ Imports System.Text
 Imports System.Threading
 Imports System.Threading.Tasks
 Imports System.Windows.Forms
+Imports EncryptAndDecrypt
 
 Namespace KeyAuth
 	Partial Public Class Main
@@ -18,12 +19,15 @@ Namespace KeyAuth
 		Public Sub New()
 			InitializeComponent()
 		End Sub
+		Dim Encrypt As New EncryptAndDecrypt.Encrypt_String_By_MONSTERMC
 
 		Private Sub siticoneControlBox1_Click(ByVal sender As Object, ByVal e As EventArgs) Handles siticoneControlBox1.Click
 			Environment.Exit(0)
 		End Sub
+		'Private chatchannel As String = "Chats Chanel Name اسم الشات في البانيل" ' chat channel name
 
-		Private chatchannel As String = "Chats Chanel Name اسم الشات في البانيل" ' chat channel name
+		'''''''''''''''''Encrypt
+		Private chatchannel As String = Encrypt.decrypt("Chats Chanel Name اسم الشات في البانيل") ' chat channel name
 
 		Private Sub Main_Load(ByVal sender As Object, ByVal e As EventArgs) Handles MyBase.Load
 			Login.KeyAuthApp.check()
